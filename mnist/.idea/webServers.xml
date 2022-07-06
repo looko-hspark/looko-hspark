@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2fcc012d-8df5-49cf-ac12-4b8b82191173" name="mnist">
+        <fileTransfer rootFolder="/home/hspark" accessType="SFTP" host="192.168.0.93" port="22" sshConfigId="2b5863d0-d6bb-460b-a96b-ed5ab90c1104" sshConfig="hspark@192.168.0.93:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
